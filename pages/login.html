@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- <link rel="stylesheet" href="../css/public.css"> -->
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <div class="tang-title">
+            <span>登录百度账号</span>
+            <a href="javascript:;" class="colseBtn" onclick="Hide();">x</a>
+        </div>
+        <div class="tang-body clearfix">
+            <div class="tang-pass-login clearfix">
+                <!-- 此处a使用margin和浮动均做不出来 -->
+                <p class="passphone">
+                    <a href="javascript:;">短信快捷登录</a>
+                </p>
+                <form class="pass-form">
+                    <p class="password"><input type="text" placeholder="手机/邮箱/用户名" class="user"></p>
+                    <p class="password"><input type="password" placeholder="密码" class="pwd"></p>
+                    <p class="passauto"><span>下次自动登录</span><a href="javascript:;">登录遇到问题</a></p>
+                    <p class="pass-form-item-submit"><input type="submit" value="登录"></p>
+                    <p class="passauto"><a href="../pages/register.html">立即注册</a></p>
+                </form>
+            </div>
+
+        </div>
+        <div class="tang-pass-login-phoenix">
+            <p>可以使用以下方式登录</p>
+            <a class="pass-phoenix-list">
+                <img src="../img/denglu10_10.png">
+            </a>
+            <img src="../img/denglufixrb_03.png" class="fixrb">
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

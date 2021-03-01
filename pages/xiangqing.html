@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <style>
+        .tip {
+            width: 1000px;
+            margin: 30px auto;
+            font-size: 60px;
+            color: red;
+        }
+        
+        .media-object {
+            /* margin: 30px; */
+            margin-bottom: 20px;
+        }
+        
+        a,
+        u {
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+        }
+        
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .boxx {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        
+        .boxx img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .boxx .mark {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            display: none;
+        }
+        
+        .boxRight {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 199px;
+            left: 700px;
+            overflow: hidden;
+            display: none;
+        }
+        
+        .boxRight img {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="base">
+        <!-- header -->
+        <div class="header">
+            <!-- topbar -->
+            <div class="topbar">
+                <!-- topbar-wrap -->
+                <div class="topbar-wrap clearfix">
+                    <div class="topbar-left">
+                        <div>欢迎来到爱采购，百度旗下B2B平台！
+                            <div class="name">中华大地<i class="iconfont icon-xiala"></i>
+                                <p>退出</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="topbar-right">
+                        <li><a href="./main.html">百度爱采购首页</a></li>
+                        <li>
+                            <i class="iconfont icon-gouwucheman"></i><a href="javascript:;">购物车</a></li>
+                        <li class="topbar-section">
+                            <a href="javascript:;">我要采购</a>
+                            <i class="iconfont icon-xiala"></i>
+                            <ol>
+                                <li>买家版app</li>
+                                <li>我的订单</li>
+                                <li>全网询价</li>
+                                <li>咨询管理</li>
+                            </ol>
+                        </li>
+                        <li class="topbar-section">
+                            <a href="javascript:;">我有货源</a><i class="iconfont icon-xiala"></i>
+                            <ol>
+                                <li>卖家频道</li>
+                                <li>卖家版app</li>
+                                <li>续费专享</li>
+                                <li>厂家入驻</li>
+                                <li>采购营销</li>
+                            </ol>
+                        </li>
+                        <li><a href="javascript:;">会员商家</a></li>
+                        <li><a href="javascript:;">实力供应商</a></li>
+                        <li><a href="javascript:;">品牌汇</a></li>
+                        <li><a href="javascript:;">意见反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-wrapper">
+                <div class="slogan-search clearfix">
+                    <div class="slogan-wrap">
+                        <a href="./main.html" class="logo"><img src="../img/logo.png" target="_self"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">商品详情信息</div>
+                <div class="panel-body">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#" class="box">
+                                <img class="media-object" src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4137117417,2888274569&fm=199&app=68&f=JPEG?w=375&h=375&s=6E86488ADA2FAECC6805B6A90300E00C">
+                            </a>
+                        </div>
+                        <!-- <div class="media-body">
+                            <h3 class="media-heading">南极人男士丝袜白色全身连身连裤袜体丝袜性感透明长袖开裆连身袜P3083</h3>
+                            <h2>￥25.00</h2>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default">XL</button>
+                                <button type="button" class="btn btn-default">L</button>
+                                <button type="button" class="btn btn-default">M</button>
+                                <button type="button" class="btn btn-default">XM</button>
+                                <button type="button" class="btn btn-default">XS</button>
+                            </div>
+                            <br/>
+                            <br/>
+                            <a href="" class="btn btn-info">立即购买</a>
+                            <a href="javascript:;" class="btn btn-primary">加入购物车</a>
+                            <a href="./list.html" class="btn btn-primary">返回列表页</a>
+                        </div> -->
+                        <!-- <ul class="nav nav-tabs">
+                            <li role="presentation" class="active"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="#">Profile</a></li>
+                            <li role="presentation"><a href="#">Messages</a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/xiangqing.js"></script>
+</body>
+
+</html>

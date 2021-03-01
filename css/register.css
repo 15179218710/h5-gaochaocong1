@@ -1,0 +1,150 @@
+html {
+    overflow-y: scroll;
+}
+
+.register-wraper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url(../img/reg_bg_min.jpg) no-repeat;
+    background-size: cover;
+}
+
+.mod-new-reg-logo {
+    position: fixed;
+    left: 70px;
+    top: 60px;
+    width: 124.4px;
+    height: 40px;
+}
+
+.baidu_png {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* register */
+
+.register {
+    width: 480px;
+    height: 554px;
+    position: absolute;
+    right: 139px;
+    top: 50%;
+    margin-top: -277px;
+    background: rgba(255, 255, 255, .9);
+    border-radius: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 0 38px;
+}
+
+.new-reg-guide-login {
+    margin-top: 30px;
+}
+
+.new-reg-guide-login h3 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.new-reg-guide-login p {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.new-reg-guide-login p a {
+    color: #2e58ff;
+}
+
+.reg_content {
+    padding-top: 40px;
+}
+
+.new-reg-v5 p {
+    width: 401px;
+    margin-bottom: 32px;
+    color: #8e8f8f;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.new-reg-v5 p input {
+    margin-left: 15px;
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 321px;
+    color: #000;
+    float: right;
+}
+
+.p-verifyCodeSend {
+    position: relative;
+}
+
+.p-verifyCodeSend .CodeSend {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.p-verifyCodeSend a {
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    float: right;
+    width: 126px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.form-submit {
+    padding: 8px 0 15px;
+}
+
+.form-submit .submit {
+    background: #BDCEFC;
+    border-radius: 25px;
+    width: 399px;
+    display: block;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+.isAgree {
+    width: 399px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.isAgree input {
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+}
+
+.isAgree span {
+    color: #666;
+    margin-left: 5px;
+}
+
+.isAgree a {
+    color: #2E58FF;
+}

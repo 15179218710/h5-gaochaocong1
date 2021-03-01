@@ -1,0 +1,498 @@
+/* 详情页 */
+
+body {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.topbar-wrap,
+.slogan-wrap,
+.main-wrap,
+.footer-wrap,
+.slot-wrap {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.slot-wrapper {
+    background-color: #f7f7f7;
+    padding-bottom: 40px;
+}
+
+
+/* filter */
+
+.filter {
+    height: 192px;
+}
+
+.filter-container {
+    overflow: hidden;
+}
+
+.filter-container .bread {
+    margin: 16px 0;
+}
+
+.bread-container {
+    position: relative;
+    padding-right: 180px;
+    overflow: hidden;
+}
+
+.bread-left {
+    float: left;
+    color: #333;
+    margin: 1px 0 0 -5px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.bread-right {
+    position: absolute;
+    right: 0;
+    margin-top: 2px;
+    color: #555;
+}
+
+.bread-right em {
+    color: #ef1f1f;
+    margin: 0 3px;
+}
+
+.filter-suggest {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.fold-wraper {
+    width: 1350px;
+    height: 58px;
+    overflow: hidden;
+    position: relative;
+}
+
+.filter-wraper {
+    width: 1350px;
+    height: 131px;
+    background: #fff;
+}
+
+.sj-filter-container {
+    width: 1310px;
+    height: 113px;
+    padding: 3px 20px 15px;
+}
+
+.sj-filter-container table {
+    width: 100%;
+}
+
+.filter-category {
+    width: 1310px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+.filter-category .filter-name {
+    width: 90px;
+    white-space: nowrap;
+    padding-top: 16px;
+    line-height: 16px;
+    color: #666;
+}
+
+.filter-category .filter-word {
+    width: 1157px;
+    height: 114px;
+    float: left;
+    height: 35px;
+    overflow: hidden;
+}
+
+.filter-word-wrap .filter-item {
+    display: inline-block;
+    height: 16px;
+    max-width: 200px;
+    margin: 16px 10px 0 0;
+    padding: 0 5px;
+    line-height: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.filter-word-wrap .filter-item:hover {
+    color: red;
+}
+
+.filter-category .op-fold {
+    width: 55px;
+    height: 25px;
+    display: table-cell;
+    width: 55px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: right;
+    color: #666;
+}
+
+.filter-category .op-fold .op-btn {
+    overflow: hidden;
+    width: 41px;
+    height: 21px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 1px 5px 1px 8px;
+    text-align: center;
+}
+
+.filter-suggest .s-fold-btn {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    margin-left: -25px;
+    background: #fff;
+    width: 50px;
+    height: 24px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filter-suggest .s-fold-btn .iconfont {
+    font-size: 14px;
+    color: #999;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.s-filter-common {
+    height: 58px;
+    background: #fff;
+}
+
+.s-l-filter-layout {
+    display: inline-block;
+    height: 100%;
+    font-size: 14px;
+    line-height: 44px;
+    color: #666;
+}
+
+.s-l-filter-layout span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+.s-l-filter-layout .s-l-filter-item-selected {
+    color: #ef1f1f;
+}
+
+.s-o-filter-layout {
+    width: 66px;
+    display: inline-block;
+    height: 100%;
+    font-size: 14px;
+    line-height: 44px;
+    color: #757575;
+}
+
+.s-o-filter-layout span {
+    margin-left: 24px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.s-r-filter-layout {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    padding-left: 24px;
+}
+
+.input-layout {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.input-layout p {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.input-container {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    width: 63px;
+}
+
+.input-wrapper {
+    display: inline-block;
+    top: 0;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+}
+
+.input-wrapper input {
+    box-sizing: border-box;
+    height: 26px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 1px 7px;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+
+.checkbox-wrapper {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 24px;
+    margin-right: 0;
+    color: #757575;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    line-height: 1;
+    position: relative;
+}
+
+
+/* s-content */
+
+.s-content {
+    position: relative;
+    padding: 16px 0;
+    margin-top: 20px;
+}
+
+.card-layout {
+    /* display: inline-block; */
+    vertical-align: top;
+    padding-right: 15.6px;
+    float: left;
+}
+
+.card-layout:nth-child(6n) {
+    padding-right: 0;
+}
+
+.p-card {
+    height: 332px;
+    position: relative;
+    cursor: pointer;
+    width: 212px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.p-card a {
+    width: 100%;
+    display: inline-block;
+    height: 332px;
+    background-color: #fff;
+}
+
+
+/* 鼠标放上去 ，去掉文本不换行样式*/
+
+.p-card:hover {
+    height: 348px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.p-card:hover .p-card-name {
+    /* overflow: visible; */
+    text-overflow: initial;
+    white-space: normal;
+    height: 40px;
+}
+
+.main-section .card-layout a {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 4%);
+}
+
+.p-card .p-card-img-layout {
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+    height: 211px;
+    line-height: 211px;
+}
+
+.p-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.p-card-img img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.p-card :hover .show-desc {
+    display: block;
+}
+
+.p-card .show-desc {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(239, 31, 31, .8);
+}
+
+.p-card-desc-layout {
+    padding: 12px 8px 0;
+    line-height: 0;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    top: 211px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.p-card-price {
+    display: inline-block;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ef1f1f;
+    max-width: 65%;
+}
+
+.p-card-price i {
+    font-weight: 400;
+    display: inline-block;
+    font-style: normal;
+    text-indent: .3px;
+    margin-right: 2px;
+}
+
+.p-card-location {
+    max-width: 50%;
+    float: right;
+    line-height: 24px;
+}
+
+.p-card-desc-layout .iconfont {
+    line-height: 14px;
+    vertical-align: middle;
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    margin-top: -1px;
+}
+
+.p-card-name {
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.p-card-name span {
+    height: 34px;
+}
+
+.p-card-tags {
+    height: 28px;
+    line-height: 28px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+.p-card-tags div {
+    display: inline-block;
+}
+
+.p-card-tags div span {
+    font-size: 12px;
+    display: inline-block;
+    padding: 1px 2px;
+    line-height: 1;
+    border-radius: 2px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+.p-card-tags div .card-tag {
+    color: #f60;
+    border: 1px solid rgba(255, 102, 0, .4);
+    background: rgba(255, 102, 0, .08);
+}
+
+.p-card-bottom {
+    padding-top: 2px;
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 14px;
+}
+
+.p-card-bottom .shop-name {
+    line-height: 20px;
+    height: 20px;
+    float: left;
+    padding-right: 8px;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.shop-name .name {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+}

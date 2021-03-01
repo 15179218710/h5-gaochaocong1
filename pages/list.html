@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度爱采购详情页</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <style>
+        .pagination {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="base">
+        <!-- header -->
+        <div class="header">
+            <!-- topbar -->
+            <div class="topbar">
+                <!-- topbar-wrap -->
+                <div class="topbar-wrap clearfix">
+                    <div class="topbar-left">
+                        <div>欢迎来到爱采购，百度旗下B2B平台！
+                            <div class="name">中华大地<i class="iconfont icon-xiala"></i>
+                                <p>退出</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="topbar-right">
+                        <li><a href="./main.html">百度爱采购首页</a></li>
+                        <li>
+                            <i class="iconfont icon-gouwucheman"></i><a href="./cart.html">购物车</a></li>
+                        <li class="topbar-section">
+                            <a href="javascript:;">我要采购</a>
+                            <i class="iconfont icon-xiala"></i>
+                            <ol>
+                                <li>买家版app</li>
+                                <li>我的订单</li>
+                                <li>全网询价</li>
+                                <li>咨询管理</li>
+                            </ol>
+                        </li>
+                        <li class="topbar-section">
+                            <a href="javascript:;">我有货源</a><i class="iconfont icon-xiala"></i>
+                            <ol>
+                                <li>卖家频道</li>
+                                <li>卖家版app</li>
+                                <li>续费专享</li>
+                                <li>厂家入驻</li>
+                                <li>采购营销</li>
+                            </ol>
+                        </li>
+                        <li><a href="javascript:;">会员商家</a></li>
+                        <li><a href="javascript:;">实力供应商</a></li>
+                        <li><a href="javascript:;">品牌汇</a></li>
+                        <li><a href="javascript:;">意见反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-wrapper">
+                <div class="slogan-search clearfix">
+                    <div class="slogan-wrap">
+                        <a href="./main.html" class="logo"><img src="../img/logo.png" target="_self"></a>
+                        <div class="search-wrapper">
+                            <div class="search">
+                                <div class="search-core">
+                                    <div>
+                                        <span>商品</span>
+                                        <i class="iconfont  icon-xiala"></i>
+                                        <input type="text" placeholder="我要买...">
+                                    </div>
+                                    <button>搜索</button>
+                                </div>
+                                <a href="javascript:;" class="qwxj">全网询价</a>
+                            </div>
+                            <ul>
+                                <li><a href="#">玻璃温室大棚</a></li>
+                                <li><a href="#">槽式翻抛机</a></li>
+                                <li><a href="#">VOCS在线监测</a></li>
+                                <li><a href="#">蔬菜大棚</a></li>
+                                <li><a href="#">光氧净化器</a></li>
+                                <li><a href="#">喷淋金属软管</a></li>
+                            </ul>
+                        </div>
+                        <ul class="img-list-container">
+                            <li class="img-list-item">
+                                <img src="../img/img1.png" width="50px" height="50px">
+                                <p>海量货源</p>
+                            </li>
+                            <li class="img-list-item">
+                                <img src="../img/img2.png" width="50px" height="50px">
+                                <p>智能匹配</p>
+                            </li>
+                            <li class="img-list-item">
+                                <img src="../img/img3.png" width="50px" height="50px">
+                                <p>高速响应</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- slot-wrapper -->
+        <div class="slot-wrapper clearfix">
+            <div class="slot-wrap">
+                <div class="filter">
+                    <div class="filter-container">
+                        <div class="bread">
+                            <div class="bread-container">
+                                <span class="bread-left">包装印刷市场</span>
+                                <span class="bread-right">共<em>922</em>件相关商品</span>
+                            </div>
+                        </div>
+                        <div class="filter-suggest">
+                            <div class="fold-wraper">
+                                <div class="filter-wraper">
+                                    <div class="sj-filter-container">
+                                        <table>
+                                            <tbody>
+                                                <tr class="filter-category">
+                                                    <td class="filter-name">品牌：</td>
+                                                    <td class="filter-word">
+                                                        <!-- filter-word-wrap 研究-->
+                                                        <div class="filter-word-wrap">
+                                                            <span class="filter-item">康利达</span>
+                                                            <span class="filter-item">拜德包装</span>
+                                                            <span class="filter-item">精诚纸塑</span>
+                                                            <span class="filter-item">申凯包装</span>
+                                                            <span class="filter-item">卓彩包装</span>
+                                                            <span class="filter-item">制成</span>
+                                                            <span class="filter-item">油价没</span>
+                                                            <span class="filter-item">星辰</span>
+                                                            <span class="filter-item">欧诺朔夜</span>
+                                                            <span class="filter-item">三创</span>
+                                                            <span class="filter-item">西河</span>
+                                                            <span class="filter-item">康资</span>
+                                                            <span class="filter-item">应被包装</span>
+                                                            <span class="filter-item">宋宁</span>
+                                                            <span class="filter-item">翰林院</span>
+                                                            <span class="filter-item">宇说印刷</span>
+                                                            <span class="filter-item">取闹包装</span>
+                                                            <span class="filter-item">康利达</span>
+                                                            <span class="filter-item">拜德包装</span>
+                                                            <span class="filter-item">精诚纸塑</span>
+                                                            <span class="filter-item">申凯包装</span>
+                                                            <span class="filter-item">卓彩包装</span>
+                                                            <span class="filter-item">制成</span>
+                                                            <span class="filter-item">油价没</span>
+                                                            <span class="filter-item">星辰</span>
+                                                            <span class="filter-item">欧诺朔夜</span>
+                                                            <span class="filter-item">三创</span>
+                                                            <span class="filter-item">西河</span>
+                                                            <span class="filter-item">康资</span>
+                                                            <span class="filter-item">应被包装</span>
+                                                            <span class="filter-item">宋宁</span>
+                                                            <span class="filter-item">翰林院</span>
+                                                            <span class="filter-item">宇说印刷</span>
+                                                            <span class="filter-item">取闹包装</span>
+                                                            <span class="filter-item">康利达</span>
+                                                            <span class="filter-item">拜德包装</span>
+                                                            <span class="filter-item">精诚纸塑</span>
+                                                            <span class="filter-item">申凯包装</span>
+                                                            <span class="filter-item">卓彩包装</span>
+                                                            <span class="filter-item">制成</span>
+                                                            <span class="filter-item">油价没</span>
+                                                            <span class="filter-item">星辰</span>
+                                                            <span class="filter-item">欧诺朔夜</span>
+                                                            <span class="filter-item">三创</span>
+                                                            <span class="filter-item">西河</span>
+                                                            <span class="filter-item">康资</span>
+                                                            <span class="filter-item">应被包装</span>
+                                                            <span class="filter-item">宋宁</span>
+                                                            <span class="filter-item">翰林院</span>
+                                                            <span class="filter-item">宇说印刷</span>
+                                                            <span class="filter-item">取闹包装</span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="op-fold">
+                                                        <span class="op-btn">
+                                                            <em class="unfold">更多</em>
+                                                            <em class="fold">收起</em>
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 下拉框显示不出来,忘记引入iconfont.css -->
+                            <div class="s-fold-btn">
+                                <i class="iconfont icon-xiala"></i>
+                            </div>
+                        </div>
+                        <div class="s-filter-common">
+                            <div class="s-l-filter-layout">
+                                <span class="s-l-filter-item-selected">综合排序</span>
+                                <span>人气排序</span>
+                            </div>
+                            <div class="s-o-filter-layout">
+                                <span>价格</span>
+                            </div>
+                            <div class="s-r-filter-layout">
+                                <div class="input-layout">
+                                    <div class="input-container">
+                                        <div class="input-wrapper">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                    <p>-</p>
+                                    <div class="input-container">
+                                        <div class="input-wrapper">
+                                            <input type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkbox-wrapper">
+                                <span class="checkbox">
+                                    <input type="checkbox" class="checkbox-input">
+                                </span>
+                                <em>实力供应商</em>
+                            </div>
+                            <div class="checkbox-wrapper">
+                                <span class="checkbox">
+                                    <input type="checkbox" class="checkbox-input">
+                                </span>
+                                <em>所有地区</em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content -->
+                <div class="s-content clearfix">
+                    <div class="infinite-scroll">
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="../pages/xiangqing.html" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"><img src="https://image5.suning.cn/uimg/b2c/newcatentries/0070081143-000000000144879464_2_200x200.jpg" alt=""></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"><img src="https://image3.suning.cn/uimg/b2c/newcatentries/0070081143-000000000132291774_2_200x200.jpg" alt=""></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-layout">
+                            <div class="p-card">
+                                <a href="javascript:;" class="link">
+                                    <div class="p-card-img-layout">
+                                        <div class="p-card-img"></div>
+                                        <div class="show-desc">查看详情</div>
+                                    </div>
+                                    <div class="p-card-desc-layout">
+                                        <div class="p-card-price">
+                                            <i>￥</i>6900.00元
+                                        </div>
+                                        <div class="p-card-location">
+                                            <i class="iconfont icon-dizhi"></i> 山东济南
+                                        </div>
+                                        <div class="p-card-name text_ellipsis">
+                                            <span style="color: rgb(51, 51, 51);">博科DLSB-20/20低温冷却循环泵低温液体循环设备厂家直销</span>
+                                        </div>
+                                        <div class="p-card-tags">
+                                            <div>
+                                                <span class="card-tag">实地验商</span>
+                                            </div>
+                                            <div>
+                                                <span>低温</span>
+                                            </div>
+                                            <div>
+                                                <span>博科品牌</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-card-bottom">
+                                            <span class="shop-name">
+                                                <span class="name text_ellipsis">
+                                                    <span>广州怡彩印刷科技有限公司</span>
+                                            </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pagination没有，写完再看 -->
+                <div class="pagination"></div>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-wrap">
+                <div class="footer-top clearfix">
+                    <div class="footer-top-left">
+                        <dl>
+                            <dt>买家指南</dt>
+                            <dd><a href="javascript:;">功能介绍</a></dd>
+                            <dd><a href="javascript:;">常见问题</a></dd>
+                            <dd><a href="javascript:;">服务条款</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>卖家指南</dt>
+                            <dd><a href="javascript:;">入驻流程</a></dd>
+                            <dd><a href="javascript:;">常见问题</a></dd>
+                            <dd><a href="javascript:;">服务商查询</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>关于我们</dt>
+                            <dd><a href="javascript:;">产品百科</a></dd>
+                            <dd><a href="javascript:;">平台声明</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>联系我们</dt>
+                            <dd><a href="javascript:;">投诉反馈</a></dd>
+                            <dd><a href="javascript:;">联系邮箱</a></dd>
+                        </dl>
+                    </div>
+                    <div class="footer-top-right">
+                        <h3>公众号</h3>
+                        <img src="../img/footer_code.png" width="98px" height="98px">
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>互联网药品信息服务资格证书（京）-经营性-2017-0020 <span></span>医疗器械网络交易服务第三方平台备案：（京）网械平台备字（2020） 第00002号</p>
+                    <p>京ICP证030173号<span></span>京公网安备11000002000001号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- 悬浮导航 -->
+    <script src="../js/jquery.js"></script>
+    <script>
+        $(function() {
+            (function() {
+                var $nav = $('.slogan-search')
+
+                var navtop = $nav.offset().top;
+                $(window).scroll(function() {
+                    var scrollTop = $(document).scrollTop();
+                    if (scrollTop > navtop) {
+                        $nav.addClass('fixed')
+                    } else {
+                        $nav.removeClass('fixed')
+                    }
+                })
+            })()
+
+        })
+    </script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/pagination.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/list.js"></script>
+</body>
+
+</html>

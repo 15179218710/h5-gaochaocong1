@@ -1,0 +1,149 @@
+html {
+    min-height: 101%;
+}
+
+.login-box {
+    width: 393px;
+    height: 438px;
+    border: 1px solid #dddddd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 14px;
+}
+
+
+/* 公用样式 */
+
+.tang-title {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.tang-title {
+    height: 47px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-width: 1px 1px 0;
+    border-bottom: 0;
+    cursor: move;
+    line-height: 47px;
+}
+
+.tang-title span {
+    background: url(../img/baidu.log_03.png) no-repeat left center;
+    padding-left: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+}
+
+.tang-title a {
+    float: right;
+    font-size: 26px;
+    color: #d3d3d3;
+    font-weight: 100;
+}
+
+
+/* tang-body */
+
+.tang-body {
+    padding: 0 20px;
+    background: #ffffff;
+    font-size: 12px;
+}
+
+.tang-pass-login {
+    padding-bottom: 50px;
+}
+
+.tang-pass-login .passphone {
+    height: 41px;
+}
+
+.tang-pass-login .passphone a {
+    color: #666;
+    height: 41px;
+    line-height: 41px;
+    position: absolute;
+    right: 21px;
+}
+
+.pass-form p {
+    margin-bottom: 15px;
+}
+
+.password input {
+    display: block;
+    font-size: 14px;
+    width: 300px;
+    height: 16px;
+    padding: 12px 10px 12px 38px;
+    border: 1px solid #dddddd;
+    color: #666;
+    background-color: #fff;
+    margin: 0 1px;
+}
+
+.user {
+    background: url(../img/denglu_07.png) no-repeat 12px 10px;
+}
+
+.pwd {
+    background: url(../img/denglu_10.png) no-repeat 12px 10px;
+}
+
+.passauto span {
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
+}
+
+.passauto a {
+    color: #1b66c7;
+    float: right;
+}
+
+.pass-form-item-submit input {
+    width: 350px;
+    height: 48px;
+    display: block;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    margin: 0 1px;
+    color: #fff;
+    background: #3f89ec;
+    cursor: pointer;
+}
+
+
+/* tang-pass-login-phoenix */
+
+.tang-pass-login-phoenix {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    padding-left: 20px;
+    z-index: 16;
+    padding-bottom: 15px;
+    color: #666;
+    font-size: 12px;
+}
+
+.pass-phoenix-list {
+    position: relative;
+    height: 40px;
+}
+
+.pass-phoenix-list img {
+    margin-top: 13px;
+}
+
+.fixrb {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

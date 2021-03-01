@@ -1,0 +1,107 @@
+{
+  "id": "2258073",
+  "name": "fontshop",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "446693",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "13118399",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5657520",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "11544835",
+      "name": "星星",
+      "font_class": "xingxing1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "781683",
+      "name": "人民币2-01",
+      "font_class": "renminbi201",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "1046316",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "2205277",
+      "name": "分享",
+      "font_class": "sharingsharef",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "9805767",
+      "name": "菱形",
+      "font_class": "lingxing",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "15089310",
+      "name": "厂家",
+      "font_class": "changjia",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "16394045",
+      "name": "资讯",
+      "font_class": "biaoqiankuozhan_zixun-229",
+      "unicode": "eb5f",
+      "unicode_decimal": 60255
+    },
+    {
+      "icon_id": "3553997",
+      "name": "太阳",
+      "font_class": "taiyang",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "1305",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1505688",
+      "name": "星星",
+      "font_class": "xingxing",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7708032",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

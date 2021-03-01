@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+/* 重置样式   清除默认样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+a,
+u {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+input {
+    border: 0;
+    /* input在聚焦时候的边框 */
+    outline: none;
+}
+
+.float_l {
+    float: left;
+}
+
+.float_r {
+    float: right;
+}
+
+.border_none {
+    border: none!important;
+}
+
+.bg_none {
+    background: none!important;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* 万能清浮动 */
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+
+/* 文本溢出出现省略号 */
+
+.text_ellipsis {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,636 @@
+        /* main */
+        /* top */
+        /* 选项卡 */
+        /* main */
+        
+        .main {
+            padding-top: 17px;
+            background-color: #f7f7f7;
+            box-sizing: border-box;
+        }
+        
+        .top-menu {
+            width: 193px;
+            height: 416px;
+            float: left;
+            background-color: #333;
+        }
+        
+        .menu {
+            margin-top: 8px;
+            position: relative;
+        }
+        
+        .top-menu .container {
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 16px;
+            color: #fff;
+        }
+        
+        .top-menu .container:hover {
+            background-color: red;
+        }
+        
+        .top-menu .container:hover .show {
+            display: block;
+        }
+        
+        .top-menu .container .menu-left a {
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .menu-left a:hover {
+            font-weight: bolder;
+        }
+        
+        .top-menu .container .menu-left span {
+            margin: 0 6px;
+            font-size: 10px;
+        }
+        /* content */
+        
+        .menu .content {
+            width: 755px;
+            height: 416px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            position: absolute;
+            left: 193px;
+            top: -8px;
+            display: none;
+            background-color: #fff;
+            z-index: 99;
+        }
+        
+        .content a {
+            padding-right: 12px;
+            font-size: 12px;
+        }
+        
+        .content p a:last-child {
+            padding-right: 0;
+        }
+        
+        .content a:hover {
+            color: red;
+        }
+        
+        .content li {
+            height: 71px;
+            line-height: 25px;
+            margin-top: 24px
+        }
+        
+        .menu .content-l {
+            width: 386px;
+            height: 399px;
+            box-sizing: border-box;
+            padding: 4px 32px 0 56px;
+            float: left;
+        }
+        
+        .content .a1 {
+            font-weight: 900;
+        }
+        
+        .menu .content-r {
+            padding-top: 4px;
+            width: 320px;
+            height: 399px;
+            float: left;
+        }
+        /* swiper-container */
+        
+        .banner {
+            position: relative;
+        }
+        
+        .banner .swiper-container {
+            width: 755px;
+            height: 416px;
+            position: absolute;
+            left: 193px;
+        }
+        
+        .banner .swiper-container img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .map-info {
+            height: 10px;
+            width: 400px;
+            position: absolute;
+            top: 395px;
+            left: 186px;
+            display: flex;
+            overflow: hidden;
+            z-index: 88;
+        }
+        
+        .map-info span {
+            width: 50px;
+            height: 2px;
+            background-color: #aaa;
+            border-radius: 5px;
+            margin-left: 3px;
+        }
+        /* 进度条显示 */
+        
+        .map-info a {
+            width: 50px;
+            height: 2px;
+            background-color: #00B6E1;
+            border-radius: 5px;
+            position: absolute;
+            left: 0px;
+            display: inline-block;
+        }
+        /* top */
+        
+        .top-right {
+            width: 243px;
+            height: 416px;
+            padding: 16px;
+            float: right;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        
+        .top-right h3 {
+            line-height: 30px;
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        
+        .top-right .section-icon {
+            margin-bottom: 5px;
+        }
+        
+        .icon-subtitle {
+            width: 50%;
+            height: 38px;
+            line-height: 38px;
+            float: left;
+        }
+        
+        .icon-subtitle:hover span {
+            color: red;
+        }
+        
+        .section-icon .iconfont {
+            width: 24px;
+            height: 24px;
+            font-size: 24px;
+            margin-right: 10px;
+            color: red;
+            float: left;
+        }
+        
+        .section-icon span {
+            font-size: 12px;
+            color: #4a4a4a;
+            line-height: 38px;
+            float: left;
+        }
+        
+        .notice {
+            height: 168px;
+        }
+        
+        .notice ul li {
+            height: 28px;
+            line-height: 28px;
+        }
+        
+        .notice ul a {
+            display: block;
+            color: #666;
+            font-size: 12px;
+            line-height: 28px;
+            height: 28px;
+        }
+        
+        .notice ul a span {
+            display: inline-block;
+            width: 140px;
+        }
+        
+        .notice em {
+            float: right;
+            color: #aaa;
+        }
+        /* section */
+        
+        .section {
+            margin-top: 30px;
+        }
+        
+        .section.hot a:hover {
+            color: red;
+        }
+        
+        .section-title {
+            height: 24px;
+            line-height: 24px;
+            font-size: 24px;
+            position: relative;
+            font-weight: 700;
+            margin: 36px 0 24px;
+        }
+        
+        .section-title em {
+            font-size: 14px;
+            margin-left: 15px;
+            color: #666;
+            font-weight: 400;
+        }
+        /* 公用 */
+        
+        .card-row .card-span .item-card p:hover {
+            color: red;
+        }
+        
+        .card-row .card-span {
+            float: left;
+            margin-right: 12px;
+            margin-bottom: 16px;
+        }
+        
+        .card-row .card-span:nth-child(2n) {
+            margin-right: 0px;
+        }
+        
+        .card-span .item-card {
+            width: 593px;
+            height: 278px;
+            padding: 0;
+            font-size: 12px;
+            background-color: #fff;
+        }
+        
+        .card-span .item-card a {
+            width: 192px;
+            height: 100%;
+            float: left;
+            position: relative;
+        }
+        
+        .card-span .item-card a .title {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            color: #333;
+            font-size: 20px;
+        }
+        
+        .card-span .item-card a img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .right-box {
+            width: 400px;
+            float: left;
+        }
+        
+        .right-box .top-box {
+            height: 190px;
+        }
+        
+        .right-box .top-box a {
+            float: left;
+            width: 133px;
+            height: 100%;
+            text-align: center;
+        }
+        
+        .right-box .top-box a p {
+            color: #333;
+            font-size: 15px;
+            margin: 24px 10px 3px;
+        }
+        
+        .right-box .top-box a img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .gap-line {
+            border-top: 1px solid #eee;
+            margin: 0 24px;
+        }
+        
+        .right-box .bottom-box {
+            width: 400px;
+            height: 87px;
+            padding: 16px 20px 13px 28px;
+            box-sizing: border-box;
+        }
+        
+        .right-box .bottom-box a {
+            display: inline-block;
+            width: 70px;
+            height: 28px;
+            line-height: 28px;
+            margin-right: 18px;
+            font-size: 14px;
+        }
+        
+        .show-more {
+            margin-top: 14px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .show-more .toggle {
+            width: 150px;
+            margin: 0 auto;
+            position: relative;
+            top: -11px;
+            background: #f7f7f7;
+            text-align: center;
+            color: #999;
+            cursor: pointer;
+        }
+        
+        .toggle span {
+            font-size: 12px;
+            margin-right: 6px;
+        }
+        
+        .toggle i {
+            font-size: 15px;
+        }
+        /* mian-section */
+        
+        .mian-section {
+            max-height: 992px;
+            width: 1236.25px;
+            overflow: hidden;
+            padding: 10px 0 10px 10px;
+            margin: -10px -10px 0;
+            position: relative;
+        }
+        
+        .main-section .card-layout {
+            padding-right: 16.25px;
+            /* display: inline-block; */
+            vertical-align: top;
+            padding-right: 16.25px;
+            float: left;
+        }
+        
+        .main-section .card-layout:nth-child(5n) {
+            padding-right: 0;
+        }
+        
+        .p-card {
+            height: 323px;
+            position: relative;
+            cursor: pointer;
+            width: 227px;
+            margin-bottom: 16px;
+        }
+        /* 鼠标放上去 ，去掉文本不换行样式*/
+        
+        .p-card:hover {
+            height: 339px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            margin-bottom: 0;
+        }
+        
+        .p-card:hover .p-card-name {
+            /* overflow: visible; */
+            text-overflow: initial;
+            white-space: normal;
+            height: 40px;
+        }
+        
+        .main-section .card-layout a {
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0 0 0 1px rgb(0 0 0 / 4%);
+        }
+        
+        .p-card .p-card-img-layout {
+            position: relative;
+            overflow: hidden;
+            font-size: 0;
+            height: 227px;
+            line-height: 227px;
+        }
+        
+        .p-card-img {
+            background-image: url(https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=192500368,53410473&fm=199&app=68&f=JPEG?w=375&h=375&s=5430A5700A77528A4C91A0D5030030E2);
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: 50% 0;
+        }
+        
+        .p-card :hover .show-desc {
+            display: block;
+        }
+        
+        .p-card .show-desc {
+            display: none;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+            background-color: rgba(239, 31, 31, .8);
+        }
+        
+        .p-card-desc-layout {
+            box-sizing: border-box;
+            padding: 12px 8px 0;
+            line-height: 0;
+            font-size: 12px;
+            color: #999;
+            position: absolute;
+            top: 227px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        
+        .p-card-price {
+            display: inline-block;
+            line-height: 24px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #ef1f1f;
+            max-width: 65%;
+        }
+        
+        .p-card-price i {
+            font-weight: 400;
+            display: inline-block;
+            font-style: normal;
+            text-indent: .3px;
+            margin-right: 2px;
+        }
+        
+        .p-card-location {
+            max-width: 50%;
+            float: right;
+            line-height: 24px;
+        }
+        
+        .p-card-desc-layout .iconfont {
+            line-height: 14px;
+            vertical-align: middle;
+            font-size: 14px;
+            width: 14px;
+            height: 14px;
+            margin-top: -1px;
+        }
+        
+        .p-card-name {
+            width: 211px;
+            height: 20px;
+            line-height: 20px;
+        }
+        
+        .p-card-name span {
+            height: 34px;
+        }
+        
+        .p-card-tags {
+            height: 28px;
+            line-height: 28px;
+            margin-right: -8px;
+            overflow: hidden;
+        }
+        
+        .p-card-tags div {
+            display: inline-block;
+        }
+        
+        .p-card-tags div span {
+            font-size: 12px;
+            display: inline-block;
+            padding: 1px 2px;
+            line-height: 1;
+            border-radius: 2px;
+            font-weight: 400;
+            margin-right: 5px;
+        }
+        
+        .p-card-tags div .card-tag {
+            color: #f60;
+            border: 1px solid rgba(255, 102, 0, .4);
+            background: rgba(255, 102, 0, .08);
+        }
+        /* sa section */
+        
+        .sa {
+            height: 150px;
+        }
+        
+        .per-swiper {
+            position: relative;
+            height: 70px;
+            overflow: hidden;
+        }
+        
+        .per-swiper-inner {
+            padding: 0 45px;
+        }
+        
+        .swiper-container {
+            height: 100%;
+        }
+        
+        .swiper-wraper {
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 6240px;
+            height: 70px;
+            transform: translate3d(0px, 0px, 0px);
+            transition-duration: 0.5s;
+            position: relative;
+        }
+        
+        .swiper-wraper .swiper-slide {
+            width: 160px;
+            height: 70px;
+            position: relative;
+            float: left;
+            box-sizing: content-box;
+        }
+        
+        .swiper-slide .link {
+            margin: 0 10px;
+            width: 140px;
+            height: 100%;
+            overflow: hidden;
+            background-color: #fff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .per-swiper .link img {
+            width: 120px;
+            height: 60px;
+        }
+        
+        .swiper-button-pre,
+        .swiper-button-next1 {
+            width: 45px;
+            line-height: 72px!important;
+            height: 72px;
+            cursor: default;
+            width: 45px!important;
+            position: absolute;
+            top: 0;
+            color: #aaa;
+            text-align: center;
+        }
+        
+        .swiper-button-pre {
+            left: 0;
+        }
+        
+        .per-swiper .per-swiper-inner .swiper-button-next1 {
+            right: 0;
+            color: #aaa;
+            font-size: 30px;
+        }
+        
+        .swiper-button-pre .icon-zuo {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            color: #aaa;
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        
+        .icon-you {
+            width: 45px;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            color: #aaa;
+            font-size: 32px!important;
+        }
